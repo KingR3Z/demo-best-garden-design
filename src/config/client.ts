@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "6",
 
   // Services
   services: [
@@ -79,9 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Peter Smith", rating: 5, text: "From first point of contact to completion Chris was a pleasure to deal with. Our garden was very much a blank canvas. In total we had three on site meetings  where initially we gave Chris our “wants”.  As he is so knowledgeable he was able …  ", date: "3 years ago" },
+    { name: "Sue England", rating: 5, text: "'Chris recently designed our new front garden space. He produced us 3 alternative designs and it was hard to choose as we liked them all! Consultation and further information was all readily given, and Chris visited several times to advise …  ", date: "6 years ago" },
+    { name: "David Jones", rating: 5, text: "Excellent design reflected Chris’s readiness to listen to my ideas and translate them into a stunning design utilising his creative flair and vision. All this was brought to a conclusion by the equally professional work of Bosham Landscapes. I am del", date: "6 years ago" },
+    { name: "Bernard Buckley", rating: 5, text: "Best garden design created the most stunning of green walls in my small city garden. Strongly recommended ", date: "6 years ago" },
+    { name: "Laverne Inman", rating: 5, text: "Our garden is definitely a work in progress chris had his work cut out as  we gave him a very vague idea of what we would like Chris came back to us with 3 very different designs all of which we loved it was …  ", date: "4 years ago" },
+    { name: "Talie Wood", rating: 5, text: "Chris was great to work with - happy to accomodate my own ideas while pushing the boundaries of my thinking. Can highly recommend him. ", date: "6 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
